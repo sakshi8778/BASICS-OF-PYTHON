@@ -1,0 +1,35 @@
+
+
+movies = []
+#3 movie list
+mov1 = input("enter1 movie:")
+mov2 = input("enter2 movie:")
+mov3 = input("enter3 movie:")
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+print(movies)
+#check palindrome(same from back and front) ele
+#compare list == reverse list
+list = [2,5,6,7,2]
+copy_list = list.copy()
+copy_list.reverse()
+if(copy_list == list):
+    print("t")
+else:
+    print("j")
+
+
+    
+stu = ("l","k","j","h","k")
+print(stu.count("k"))
+print(stu)
+
+
+
+
+
+
+
+
+    
